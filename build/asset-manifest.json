@@ -1,7 +1,7 @@
 {
   "main.css": "/myApp2/static/css/main.e82d0f64.chunk.css",
-  "main.js": "/myApp2/static/js/main.bb0f1bae.chunk.js",
-  "main.js.map": "/myApp2/static/js/main.bb0f1bae.chunk.js.map",
+  "main.js": "/myApp2/static/js/main.f53c1b6e.chunk.js",
+  "main.js.map": "/myApp2/static/js/main.f53c1b6e.chunk.js.map",
   "static/js/1.805a856c.chunk.js": "/myApp2/static/js/1.805a856c.chunk.js",
   "static/js/1.805a856c.chunk.js.map": "/myApp2/static/js/1.805a856c.chunk.js.map",
   "runtime~main.js": "/myApp2/static/js/runtime~main.f3f096f0.js",
@@ -9,7 +9,7 @@
   "static/media/Cart2BestSolutions.module.css": "/myApp2/static/media/framepresent.6d645041.svg",
   "static/media/Cover.module.css": "/myApp2/static/media/photo.b8dbd8c2.png",
   "static/media/Cart.module.css": "/myApp2/static/media/photoCart3.2ab62b4a.png",
-  "static/media/WorkWithUs.module.css": "/myApp2/static/media/Screen.53ae2bab.png",
+  "static/media/WorkWithUs.module.css": "/myApp2/static/media/image44.9a63371b.png",
   "static/media/MenuDown.module.css": "/myApp2/static/media/Vector1.7803a274.svg",
   "static/media/OurCompany.module.css": "/myApp2/static/media/image11.12ea7b5d.png",
   "static/media/CTA.module.css": "/myApp2/static/media/photo1.81843b22.png",
@@ -37,6 +37,6 @@
   "static/media/Frame.6004d2a2.svg": "/myApp2/static/media/Frame.6004d2a2.svg",
   "static/css/main.e82d0f64.chunk.css.map": "/myApp2/static/css/main.e82d0f64.chunk.css.map",
   "index.html": "/myApp2/index.html",
-  "precache-manifest.19801b0434594a4204d1533f63f42acc.js": "/myApp2/precache-manifest.19801b0434594a4204d1533f63f42acc.js",
+  "precache-manifest.b626da2eceda8c2bc249f0f149071b5e.js": "/myApp2/precache-manifest.b626da2eceda8c2bc249f0f149071b5e.js",
   "service-worker.js": "/myApp2/service-worker.js"
 }
