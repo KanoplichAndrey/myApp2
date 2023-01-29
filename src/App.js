@@ -27,7 +27,7 @@ function App() {
         <Routes>
           <Route path="/myApp2" element={<Home />} />
           <Route path="Создание сайтов" element={<Pages />} />
-          <Route path="/*" element={<NotFound />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </div>
