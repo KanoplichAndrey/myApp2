@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "67f0b37cc06f646cd3a4",
+    "revision": "8f1fce35db0f5f86f9e1",
     "url": "/myApp2/static/css/main.e82d0f64.chunk.css"
   },
   {
-    "revision": "67f0b37cc06f646cd3a4",
-    "url": "/myApp2/static/js/main.67f0b37c.chunk.js"
+    "revision": "8f1fce35db0f5f86f9e1",
+    "url": "/myApp2/static/js/main.8f1fce35.chunk.js"
   },
   {
     "revision": "805a856ca8654c636d9a",
@@ -40,12 +40,12 @@ self.__precacheManifest = [
     "url": "/myApp2/static/media/pho6.8f955744.svg"
   },
   {
-    "revision": "6d6450416dd423cff7555adcfe9cb3cd",
-    "url": "/myApp2/static/media/framepresent.6d645041.svg"
-  },
-  {
     "revision": "6f7e5afaa869ce3210fd36f20deb5a24",
     "url": "/myApp2/static/media/framesale.6f7e5afa.svg"
+  },
+  {
+    "revision": "6d6450416dd423cff7555adcfe9cb3cd",
+    "url": "/myApp2/static/media/framepresent.6d645041.svg"
   },
   {
     "revision": "b8dbd8c26b87cebb29788c194873c25a",
@@ -64,6 +64,10 @@ self.__precacheManifest = [
     "url": "/myApp2/static/media/photoCart3.2ab62b4a.png"
   },
   {
+    "revision": "53ae2bab700a56f06bcab16bcf29cfa1",
+    "url": "/myApp2/static/media/Screen.53ae2bab.png"
+  },
+  {
     "revision": "cc828b780957aa9a4047968894ca475d",
     "url": "/myApp2/static/media/image22.cc828b78.png"
   },
@@ -74,10 +78,6 @@ self.__precacheManifest = [
   {
     "revision": "1132c7af608b2b295e248b93749ee96d",
     "url": "/myApp2/static/media/image55.1132c7af.png"
-  },
-  {
-    "revision": "53ae2bab700a56f06bcab16bcf29cfa1",
-    "url": "/myApp2/static/media/Screen.53ae2bab.png"
   },
   {
     "revision": "9a63371b2b28e7c15f31453e2a0b09be",
@@ -132,12 +132,12 @@ self.__precacheManifest = [
     "url": "/myApp2/static/media/icon4.b2bc9312.svg"
   },
   {
-    "revision": "a27f3b614402c32ef17509aee908667f",
-    "url": "/myApp2/static/media/icon6.a27f3b61.svg"
-  },
-  {
     "revision": "8a7512832f86c41335edcf68c6741a3e",
     "url": "/myApp2/static/media/icon5.8a751283.svg"
+  },
+  {
+    "revision": "a27f3b614402c32ef17509aee908667f",
+    "url": "/myApp2/static/media/icon6.a27f3b61.svg"
   },
   {
     "revision": "5a8fae35a25d64e4c23e6c3b6c3e19a2",
@@ -220,7 +220,7 @@ self.__precacheManifest = [
     "url": "/myApp2/static/media/Frame.6004d2a2.svg"
   },
   {
-    "revision": "ec84277aae1c7ce15448f1fd305d1338",
+    "revision": "a56a008ef3e56994d6ef2d7abb0663cf",
     "url": "/myApp2/index.html"
   }
 ];

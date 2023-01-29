@@ -23,6 +23,7 @@ function App() {
         <Headerr  className='Headerr'/>
         <BurgerMenu className='BurgerMenu'/>
         {/* {mobile ? <BurgerMenu /> : <Headerr />} */}
+        <Home />
         <Routes>
           <Route path="" element={<Home />} />
           <Route path="Создание сайтов" element={<Pages />} />
