@@ -20,16 +20,16 @@ self.__precacheManifest = [
     "url": "/myApp2/static/media/pho2.6d3f7239.svg"
   },
   {
+    "revision": "21023860a301795f0472ce20897303e8",
+    "url": "/myApp2/static/media/pho1.21023860.svg"
+  },
+  {
     "revision": "95242f8ba6116701351e1f57a105db53",
     "url": "/myApp2/static/media/pho3.95242f8b.svg"
   },
   {
     "revision": "3b9ed21928e089868cefe00264f59ed3",
     "url": "/myApp2/static/media/pho4.3b9ed219.svg"
-  },
-  {
-    "revision": "21023860a301795f0472ce20897303e8",
-    "url": "/myApp2/static/media/pho1.21023860.svg"
   },
   {
     "revision": "0b61decbccb905fa75cc18ffa46e1808",
@@ -52,12 +52,12 @@ self.__precacheManifest = [
     "url": "/myApp2/static/media/photo.b8dbd8c2.png"
   },
   {
-    "revision": "187211272f1f5107906897b4c8960998",
-    "url": "/myApp2/static/media/photoCart1.18721127.png"
-  },
-  {
     "revision": "c158a418664b538f42b9140435fcf01f",
     "url": "/myApp2/static/media/photoCart2.c158a418.png"
+  },
+  {
+    "revision": "187211272f1f5107906897b4c8960998",
+    "url": "/myApp2/static/media/photoCart1.18721127.png"
   },
   {
     "revision": "2ab62b4ae6f570c1bda2433a70f58f74",
@@ -68,12 +68,12 @@ self.__precacheManifest = [
     "url": "/myApp2/static/media/Screen.53ae2bab.png"
   },
   {
-    "revision": "cc828b780957aa9a4047968894ca475d",
-    "url": "/myApp2/static/media/image22.cc828b78.png"
-  },
-  {
     "revision": "f6fd427141829c6b848c254e4c200503",
     "url": "/myApp2/static/media/image33.f6fd4271.png"
+  },
+  {
+    "revision": "cc828b780957aa9a4047968894ca475d",
+    "url": "/myApp2/static/media/image22.cc828b78.png"
   },
   {
     "revision": "1132c7af608b2b295e248b93749ee96d",
@@ -128,12 +128,12 @@ self.__precacheManifest = [
     "url": "/myApp2/static/media/icon3.ae6e3115.svg"
   },
   {
-    "revision": "8a7512832f86c41335edcf68c6741a3e",
-    "url": "/myApp2/static/media/icon5.8a751283.svg"
-  },
-  {
     "revision": "b2bc9312d1e2f020e15d4a110a9c616b",
     "url": "/myApp2/static/media/icon4.b2bc9312.svg"
+  },
+  {
+    "revision": "8a7512832f86c41335edcf68c6741a3e",
+    "url": "/myApp2/static/media/icon5.8a751283.svg"
   },
   {
     "revision": "a27f3b614402c32ef17509aee908667f",
