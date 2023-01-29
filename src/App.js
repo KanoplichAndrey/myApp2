@@ -25,7 +25,7 @@ function App() {
         {/* {mobile ? <BurgerMenu /> : <Headerr />} */}
         <Home />
         <Routes>
-          <Route path="kanoplichandrey.github.io/myApp2/" element={<Home />} />
+          <Route path="/myApp2/" element={<Home />} />
           <Route path="Создание сайтов" element={<Pages />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
