@@ -23,9 +23,9 @@ function App() {
         <Headerr  className='Headerr'/>
         <BurgerMenu className='BurgerMenu'/>
         {/* {mobile ? <BurgerMenu /> : <Headerr />} */}
-        <Home />
+        {/* <Home /> */}
         <Routes>
-          <Route path="/myApp2/" element={<Home />} />
+          <Route path="/myApp2" element={<Home />} />
           <Route path="Создание сайтов" element={<Pages />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
