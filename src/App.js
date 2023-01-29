@@ -24,9 +24,9 @@ function App() {
         <BurgerMenu className='BurgerMenu'/>
         {/* {mobile ? <BurgerMenu /> : <Headerr />} */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="*" element={<Home />} />
           <Route path="Создание сайтов" element={<Pages />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="/" element={<NotFound />} />
         </Routes>
         <Footer />
       </div>
