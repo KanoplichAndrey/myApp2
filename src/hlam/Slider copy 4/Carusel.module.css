@@ -1,0 +1,54 @@
+.mainContainer {
+  width: 542px;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.window {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.allPagesContainer {
+  height: 100%;
+  display: flex;
+  transition: translate;
+  transition-property: transform;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+}
+
+.arrowLeft {
+  background: url("../../img/Arrow_nexttive.svg") no-repeat center center/100%;
+  opacity: 0.5;
+  width: 56px;
+  height: 56px;
+}
+.arrowLeft:hover {
+  background: url("../../img/Arrow_nexttive.svg") no-repeat center center/100%;
+  opacity: 1;
+  cursor: pointer;
+}
+.arrowLeft:focus {
+  background: url("../../img/Arrow_nexttive.svg") no-repeat center center/100%;
+  opacity: 1;
+}
+
+.arrowRight {
+  background: url("../../img/Arrow_BackAtive.svg") no-repeat center center/100%;
+  opacity: 0.5;
+  width: 56px;
+  height: 56px;
+}
+.arrowRight:hover {
+  opacity: 1;
+  background: url("../../img/Arrow_BackAtive.svg") no-repeat center center/100%;
+  cursor: pointer;
+}
+.arrowRight:active {
+  background: url("../../img/Arrow_BackAtive.svg") no-repeat center center/100%;
+  opacity: 1;
+}/*# sourceMappingURL=Carusel.module.css.map */

@@ -1,0 +1,225 @@
+.wrapMenuDown{
+    // width: 120rem;
+    height: 5.2rem;
+    background: #FFFFFF;
+    display: grid;
+    grid-template-columns: 16.5% 81.7% 1.8%;
+    grid-template-rows: 1fr;
+    display: grid;
+    // grid-template-columns: repeat(6fr, 1fr) ;
+    // grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items: center;
+    padding-top: 2.5rem;
+    // display: flex;
+    // margin: 0 auto;
+    // flex-wrap: wrap;
+    // justify-content: space-between;
+    // align-items: center;
+    
+    
+    .dropDownList {
+        position: absolute;
+        background: #FFFFFF;
+        top: 100%;
+        left: 0;
+        width: 35.2rem;
+        z-index: 3;
+        opacity: 1;
+    }   
+    .realit{
+            position: relative;
+        }
+        .dropDownLink{
+            display: block;
+            width: 100%;
+            padding: 0.5rem 1rem;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1.4rem;
+            line-height: 120%;
+            letter-spacing: 0.01em;
+            text-transform: uppercase;
+            color: #212121;
+            opacity: 0.5;
+            // border-bottom: 0.1rem solid #212121;
+            border: 0.1rem solid #212121;
+
+        }
+     
+        // .realit:hover .dropDownLink {
+        //     display: none;
+        // }
+   .menuBtn {
+        cursor: pointer;
+        background: #FFFFFF;
+        border: none;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 120%;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        color: #212121;
+        position: relative;
+        
+        }
+        .menuBtn::after {
+            content: '';
+            position: absolute;
+            right: -1.4rem;
+            top: 0.5rem;
+            background: url('../../img/Vector1.svg')  no-repeat;
+            width: 1rem;
+            height: 0.5rem;
+            
+            }
+                ul li, ul li a:hover {
+                //    position: relative; 
+                //     color: orangered;
+            a{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 1.4rem;
+                line-height: 120%;
+                letter-spacing: 0.012em;
+                text-transform: uppercase;
+                color: #212121;
+                 
+
+            }
+        } 
+     
+    .map{
+        display: flex;
+        margin-left: auto;
+        flex-wrap: wrap;
+       & li{
+            margin-right: 3rem;
+
+        }
+    }
+    .logo{
+        margin-right: -1px
+    }
+    .search:hover{
+       fill: opacity 3;
+       
+    }
+
+
+
+   
+}
+ 
+
+
+@media  (max-width:1598px) {
+    .wrapMenuDown{
+         .map li{
+             margin-right: 2rem;
+            }
+    }  
+}
+
+@media  (max-width:1460px) {
+
+    .wrapMenuDown{
+        .map{
+            li{
+            margin-right: 1.5rem;
+            }
+        }
+       
+
+    }
+}
+
+@media  (max-width:1300px) {
+	.wrapMenuDown{
+        .map{
+            li{
+            a{
+                font-size: 1.25rem;
+            }
+        }
+       
+
+    }
+}
+}       
+    
+
+
+
+@media  (max-width:1200px) {
+
+.wrapMenuDown{
+       
+    display: inline-grid; 
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 95% 1fr;
+    gap: 0px;
+    height: 100%;
+
+        .realit{
+            grid-column-start: 1;
+            grid-row-end: 3;
+            grid-column-end: 4;
+        }
+        .map{
+            margin-left: 0;
+            justify-content: space-between;
+            grid-row-start: 1;
+            grid-column-start: 1;
+            grid-row-end: 2;
+            grid-column-end: 3;
+            .li{
+                margin-right: 1rem;
+            }
+        }
+        .logo{
+            display: grid;
+            justify-items: end;
+            grid-row-start: 1;
+            grid-column-start: 3;
+            grid-row-end: 2;
+            grid-column-end: 4;
+        }
+    }
+
+
+}
+
+@media  (max-width:992px) {
+
+    
+    .wrapMenuDown{
+        .map{
+           
+        }
+       
+
+    }
+
+    
+
+   
+   
+   
+	
+	}
+@media  (max-width:768px) {
+
+}
+// @media  (max-width:480px) {
+	
+// 	}
+// @media  (max-width:320px) {
+	
+// 	}
+

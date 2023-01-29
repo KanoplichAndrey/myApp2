@@ -1,0 +1,29 @@
+.wrapBestSolutions {
+  max-width: 160rem;
+  height: 138.6rem;
+  padding: 12rem 20rem 11.6rem 20rem;
+}
+
+.wrap {
+  max-width: 120rem;
+  height: 115rem;
+}
+.wrap .title {
+  padding-bottom: 6rem;
+}
+.wrap .title p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.8rem;
+  line-height: 120%;
+  color: #212121;
+}
+.wrap .Cart {
+  max-width: 120rem;
+  height: 104.4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 30%);
+  justify-content: space-between;
+  grid-row-gap: 4rem;
+}/*# sourceMappingURL=BestSolutions.module.css.map */

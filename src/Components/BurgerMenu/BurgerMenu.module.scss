@@ -1,0 +1,113 @@
+
+
+.app{
+    // max-width: 768px;
+    margin: 0 auto;
+    // padding: 0px 10px;
+     display: none;
+
+nav{
+ 
+    height: 77px;
+ 
+    width: 100%;
+    position: fixed;
+    z-index: 51;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(198 228 190);
+    // margin: 1em auto;
+    // padding: 1em;
+    // background: #fbfbfb;
+    // background: -webkit-linear-gradient(to bottom, #fbfbfb 33%, #f7f5f5 93%);
+    // background: -moz-linear-gradient(to bottom, #fbfbfb 33%, #f7f5f5 93%);
+    // background: linear-gradient(to bottom, #fbfbfb 33%, #f7f5f5 93%);
+    background: #fafafa;
+background: -webkit-linear-gradient(to bottom, #fafafa 77%, #eee7e7 93%);
+background: -moz-linear-gradient(to bottom, #fafafa 77%, #eee7e7 93%);
+background: linear-gradient(to bottom, #fafafa 77%, #eee7e7 93%);
+
+
+    
+
+    .burgerbtn{
+        width: 20px;
+        height: 17px;
+        margin-left: 20px;
+        position: relative;
+        cursor: pointer;
+    }
+    .burgerbtn::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        width: 30px;
+        background-color: black;
+        height: 3px;
+    }
+    .burgerbtn span{
+        
+        position: absolute;
+        top: 7px;
+        width: 30px;
+        background-color: black;
+        height: 3px;
+    }
+
+    .burgerbtn::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 30px;
+        background-color: black;
+        height: 3px;    
+    }
+    .logoSearch{
+        margin-right: 20px;
+    }
+
+    .change.burgerbtn::before{
+        -webkit-transform: rotate(-45deg);
+        //  translate(-9px, 6px) 
+        transform: rotate(-45deg) ;
+        transition: all 0.6s;
+        top: 7px;
+        //  translate(-9px, 6px) 
+    }
+    
+    /* Fade out the second bar */
+    .change span {
+        opacity: 0;
+        
+    }
+    
+    /* Rotate last bar */
+    .change.burgerbtn::after  {
+        -webkit-transform: rotate(45deg);
+        //  translate(-8px, -8px) 
+        transform: rotate(45deg) ;
+        bottom: 7px;
+        transition: all 0.6s;
+        // translate(-8px, -8px) 
+    }
+}
+
+main{
+    padding: 39px;
+    
+
+    p{
+        margin: 20px;
+    }
+}
+
+}
+
+@media  (max-width:768px) {
+   
+    .app{
+        display: block;
+        margin: -2px auto;
+    }
+    }

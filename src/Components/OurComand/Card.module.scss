@@ -1,0 +1,88 @@
+.cartWrap {
+    box-shadow: 0 0 24px rgb(9 5 47 / 85%);
+    .img1 {
+        background: url('../../img/photo111.png') no-repeat;
+        width: 36rem;
+        height: 36rem;
+        background-size: cover;
+    }
+
+    .img2 {
+        background: url('../../img/photo222.png') no-repeat;
+        width: 36rem;
+        height: 36rem;
+        background-size: cover;
+    }
+
+    .img3 {
+        background: url('../../img/photo333.png') no-repeat;
+        width: 36rem;
+        height: 36rem;
+        background-size: cover;
+    }
+}
+
+.names {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 140%;
+    color: #333333;
+    padding-top: 2rem;
+}
+
+.jobTitles {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 140%;
+    color: #212121;
+    opacity: 0.5;
+    padding-top: 0.4rem;
+}
+
+@media (max-width:992px) {
+    .cartWrap {
+        .img1 {
+            // margin-right: 5px;
+            width: 20rem;
+            height: 20rem;
+        }
+
+        .img2 {
+            // margin-right: 5px;
+            width: 20rem;
+            height: 20rem;
+        }
+
+        .img3 {
+            // margin-right: 5px;
+            width: 20rem;
+            height: 20rem;
+        }
+    }
+
+    .names {}
+
+    .jobTitles {}
+}
+
+@media (max-width:768px) {
+    .cartWrap {
+        .img1 {}
+
+        .img2 {}
+
+        .img3 {}
+    }
+
+    .names {
+        color: white;
+    }
+
+    .jobTitles {
+        color: white;
+    }
+}

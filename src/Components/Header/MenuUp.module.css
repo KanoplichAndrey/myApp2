@@ -1,0 +1,121 @@
+.wrapMenuUp {
+  height: 5.2rem;
+  background: #FFFFFF;
+  display: grid;
+  grid-template-columns: 16% 39.5% 22.5% 22%;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-bottom: 2.5rem;
+}
+.wrapMenuUp img {
+  margin-top: 1px;
+}
+.wrapMenuUp ul:nth-child(2) li {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 140%;
+  color: #212121;
+  opacity: 0.7;
+  letter-spacing: -0.13px;
+}
+.wrapMenuUp ul:not(:first-child) {
+  display: grid;
+  justify-content: end;
+  align-items: center;
+}
+.wrapMenuUp ul:nth-child(3) li a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #212121;
+  opacity: 0.7;
+  letter-spacing: -0.29px;
+}
+.wrapMenuUp .true {
+  width: 22.2rem;
+  height: 5.2rem;
+  border-radius: 10rem;
+  display: flex;
+  justify-content: center;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+.wrapMenuUp .btnUp {
+  width: 22.2rem;
+  height: 5.1rem;
+  border: 0.1rem solid #FF5900;
+  border-radius: 10rem;
+  display: flex;
+  justify-content: flex-end;
+  background: #FFFFFF;
+  color: #ff5900;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  /* line-height: 2rem; */
+  padding: 1.5rem 2.7rem;
+  position: relative;
+  text-align: center;
+}
+.wrapMenuUp .btnUp:before {
+  content: "";
+  position: absolute;
+  right: 17.3rem;
+  top: 1.5rem;
+  background: url("../../img/VectorPhone.svg") no-repeat;
+  width: 2rem;
+  height: 2rem;
+}
+.wrapMenuUp .btnUp:hover {
+  color: #FFFFFF;
+  border: none;
+  background: #FF5900;
+  position: relative;
+  cursor: pointer;
+}
+
+@media (max-width: 1460px) {
+  .wrapMenuUp {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 1300px) {
+  .wrapMenuUp {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .wrapMenuUp ul:nth-child(1) {
+    grid-area: 1/1/2/2;
+  }
+  .wrapMenuUp ul:nth-child(2) {
+    grid-area: 1/2/2/3;
+  }
+  .wrapMenuUp ul:nth-child(2) li {
+    line-height: 105%;
+    text-align: center;
+  }
+  .wrapMenuUp ul:not(:first-child) {
+    justify-content: center;
+    align-items: start;
+    display: grid;
+  }
+  .wrapMenuUp ul:nth-child(3) {
+    grid-area: 1/2/2/3;
+    padding-top: 30px;
+  }
+  .wrapMenuUp ul:nth-child(4) {
+    grid-area: 1/3/2/4;
+    justify-content: end;
+  }
+}/*# sourceMappingURL=MenuUp.module.css.map */

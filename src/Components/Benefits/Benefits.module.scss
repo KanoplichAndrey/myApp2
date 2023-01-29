@@ -1,0 +1,165 @@
+.conts{
+	// padding: 0 calc(50vw - 590px);
+
+.BenefitsWrap {
+  max-width: 120rem;
+  margin: 0 auto;
+
+  .BenefitsTitle {
+    padding-top: 10rem;
+    padding-bottom: 7rem;
+
+    p {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 3.8rem;
+      line-height: 120%;
+      color: #212121;
+    }
+  }
+
+  .grid {
+    display: grid;
+  }
+
+  .ulBenefits {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 30%);
+    justify-content: space-between;
+    grid-row-gap: 4rem;
+    padding-bottom: 12rem;
+  }
+
+  .liBenefits:hover{
+    // border: 1px solid orangered;
+    cursor: pointer;
+    // transition-duration: 0.3s;
+    // transition-timing-function: linear;  
+    // box-shadow: 0 0 10px orangered; /* Параметры тени */
+    // padding: 10px;     
+  }
+
+  & li:nth-child(1) p {
+    max-width: 27rem;
+    // height: 4.4rem;
+    height: 100%;
+    padding-bottom: 1rem;
+  }
+
+  & li:nth-child(2) p {
+    max-width: 33.1rem;
+    // height: 4.4rem;
+    height: 100%;
+    padding-bottom: 1rem;
+  }
+
+  & li:nth-child(3) p {
+    max-width: 31rem;
+    // height: 4.4rem;
+    height: 100%;
+    padding-bottom: 1rem;
+  }
+
+  & li:nth-child(4) p {
+    max-width: 27.1rem;
+    // height: 4.4rem;
+    height: 100%;
+    padding-bottom: 1rem;
+  }
+
+  & li:nth-child(5) p {
+    max-width: 22rem;
+    // height: 4.4rem;
+    height: 100%;
+    padding-bottom: 1rem;
+  }
+
+  & li:nth-child(6) p {
+    max-width: 28rem;
+    // height: 4.4rem;
+    height: 100%;
+    padding-bottom: 1rem;
+  }
+}
+}
+
+
+
+.conts{
+  padding: 0 15px;
+}
+
+@media (min-width: 575.98px){
+  .conts {
+    padding: 0 calc(50% - 270px);
+  }
+}
+@media (min-width: 767.98px){
+  .conts {
+    padding: 0 calc(50% - 360px);
+  }
+}
+@media (min-width: 991.98px) {
+  .conts {
+    padding: 0 calc(50% - 480px);
+  }
+}
+@media (min-width: 1199.98px){
+  .conts {
+    padding: 0 calc(50% - 600px);
+  }
+}
+
+@media  (max-width:1200px) {	
+  .BenefitsTitle {
+    text-align: center;
+  }
+}
+
+@media  (max-width:768px) {
+  
+
+  .conts{
+    .BenefitsWrap {
+  .ulBenefits {
+    grid-template-columns: repeat(auto-fill, 100%);
+    grid-row-gap: 1rem;
+  }
+}
+}
+  @media (min-width: 575.98px){
+    .conts {
+      padding: 0 ;
+    }
+  }
+  @media (min-width: 767.98px){
+    .conts {
+      padding: 0 ;
+    }
+  }
+  @media (min-width: 991.98px) {
+    .conts {
+      padding: 0;
+    }
+  }
+  @media (min-width: 1199.98px){
+    .conts {
+      padding: 0 ;
+    }
+  }
+
+  
+}
+
+
+// @media  (max-width:1200px) {	
+//   @media (min-width: 575.98px){
+//   .conts {
+//     padding: 0 calc(50% - 270px);
+//   }
+// }
+
+
+
+

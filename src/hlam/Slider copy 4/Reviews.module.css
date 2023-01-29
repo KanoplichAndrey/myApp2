@@ -1,0 +1,21 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.item1 {
+  background-color: #008000;
+}
+
+.item2 {
+  background-color: #1114c0;
+}
+
+.item3 {
+  background-color: #80001c;
+}/*# sourceMappingURL=Reviews.module.css.map */

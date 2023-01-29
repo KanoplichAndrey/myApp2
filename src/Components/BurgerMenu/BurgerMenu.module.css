@@ -1,0 +1,77 @@
+.app {
+  margin: 0 auto;
+  display: none;
+}
+.app nav {
+  height: 77px;
+  width: 100%;
+  position: fixed;
+  z-index: 51;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(198, 228, 190);
+  background: #fafafa;
+  background: linear-gradient(to bottom, #fafafa 77%, #eee7e7 93%);
+  /* Fade out the second bar */
+  /* Rotate last bar */
+}
+.app nav .burgerbtn {
+  width: 20px;
+  height: 17px;
+  margin-left: 20px;
+  position: relative;
+  cursor: pointer;
+}
+.app nav .burgerbtn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 30px;
+  background-color: black;
+  height: 3px;
+}
+.app nav .burgerbtn span {
+  position: absolute;
+  top: 7px;
+  width: 30px;
+  background-color: black;
+  height: 3px;
+}
+.app nav .burgerbtn::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 30px;
+  background-color: black;
+  height: 3px;
+}
+.app nav .logoSearch {
+  margin-right: 20px;
+}
+.app nav .change.burgerbtn::before {
+  transform: rotate(-45deg);
+  transition: all 0.6s;
+  top: 7px;
+}
+.app nav .change span {
+  opacity: 0;
+}
+.app nav .change.burgerbtn::after {
+  transform: rotate(45deg);
+  bottom: 7px;
+  transition: all 0.6s;
+}
+.app main {
+  padding: 39px;
+}
+.app main p {
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
+  .app {
+    display: block;
+    margin: -2px auto;
+  }
+}/*# sourceMappingURL=BurgerMenu.module.css.map */

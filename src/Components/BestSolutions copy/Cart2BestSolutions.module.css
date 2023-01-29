@@ -1,0 +1,388 @@
+.wrapCart {
+  max-width: 36rem;
+  height: 50.2rem;
+  display: grid;
+  justify-items: center;
+  border: 1px solid rgba(51, 51, 51, 0.3);
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.25);
+}
+.wrapCart .title {
+  padding-top: 1rem;
+  max-width: 28.5rem;
+}
+.wrapCart .title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.wrapCart .content {
+  max-width: 32.2rem;
+}
+.wrapCart .content p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 140%;
+  text-align: center;
+  color: #212121;
+  opacity: 0.5;
+}
+.wrapCart .line {
+  border-top: 1px solid #333333;
+  opacity: 0.2;
+  max-width: 31.2rem;
+}
+.wrapCart .Info {
+  max-width: 31.2rem;
+  display: grid;
+  grid-template-rows: 3.6rem 6em;
+  grid-template-columns: 3.85rem 26.4rem;
+  grid-column-gap: 1.2rem;
+  align-items: center;
+}
+.wrapCart .Info .prise {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 140%;
+  color: #212121;
+}
+.wrapCart .Info .prise span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.52rem;
+  color: #ff5900;
+}
+.wrapCart .Info .warapslepris .salePrise p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 120%;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  color: #212121;
+  opacity: 0.5;
+}
+.wrapCart .Info .warapslepris .sale p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 140%;
+  color: #212121;
+}
+.wrapCart .Info .warapslepris .sale span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.96rem;
+  color: #212121;
+}
+.wrapCart .more {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 31.2rem;
+}
+.wrapCart .more span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 120%;
+  color: #ff5900;
+}
+.wrapCart .more span span {
+  padding-left: 0.8rem;
+}
+
+.img1 {
+  background: url("../../img/pho1.svg") no-repeat center;
+  width: 100%;
+  height: 11.7rem;
+}
+
+.img2 {
+  background: url("../../img/pho2.svg") no-repeat center;
+  width: 100%;
+  height: 11.7rem;
+}
+
+.img3 {
+  background: url("../../img/pho3.svg") no-repeat center;
+  width: 100%;
+  height: 11.7rem;
+  margin-top: -0.1rem;
+}
+
+.img4 {
+  background: url("../../img/pho4.svg") no-repeat center;
+  width: 100%;
+  height: 11.7rem;
+}
+
+.img5 {
+  background: url("../../img/pho5.svg") no-repeat center;
+  width: 100%;
+  height: 11.7rem;
+}
+
+.img6 {
+  background: url("../../img/pho6.svg") no-repeat center;
+  width: 100%;
+  height: 11.7rem;
+}
+
+.i1 {
+  background: url("../../img/framesale.svg") no-repeat center;
+  width: 100%;
+  height: 100%;
+}
+
+.i2 {
+  background: url("../../img/framepresent.svg") no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.i3 {
+  background: url("../../img/framesale.svg") no-repeat;
+  width: 100%;
+  height: 100%;
+  margin-top: 0.7rem;
+}
+
+.i4 {
+  background: url("../../img/framesale.svg") no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.i5 {
+  background: url("../../img/framesale.svg") no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.i6 {
+  background: url("../../img/framesale.svg") no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.li1 .content {
+  width: 100%;
+}
+.li1 .prise {
+  padding-top: 0.6rem;
+}
+.li1 .warapslepris {
+  width: 100%;
+  padding-top: 0.9rem;
+}
+.li1 .more {
+  padding-top: 0.2rem;
+}
+.li1 .more .arrow {
+  padding-top: 0rem;
+}
+
+.li2 .title {
+  padding-top: 1rem;
+}
+.li2 .content {
+  padding-top: 2.5rem;
+  width: 100%;
+}
+.li2 svg {
+  padding-top: 0rem;
+}
+.li2 .prise {
+  padding-top: 0.6rem;
+}
+.li2 .warapslepris {
+  padding-top: 2.3rem;
+  width: 100%;
+}
+.li2 .more {
+  padding-top: 0.2rem;
+}
+
+.li3 .title {
+  padding-top: 1rem;
+}
+.li3 .content {
+  padding-bottom: 1.6rem;
+  width: 100%;
+}
+.li3 .content p {
+  padding-right: 0.5rem;
+}
+.li3 .prise {
+  padding-top: 0.6rem;
+}
+.li3 .warapslepris {
+  width: 100%;
+  padding-top: 0.8rem;
+}
+.li3 .more {
+  padding-top: 0.2rem;
+}
+
+.li4 .title {
+  padding-top: 1.1rem;
+  width: 100%;
+  padding-right: 0.5rem;
+}
+.li4 .content {
+  width: 100%;
+}
+.li4 .warapslepris {
+  padding-top: 0.6rem;
+}
+.li4 .more {
+  padding-top: 0.2rem;
+}
+
+.li5 .title {
+  padding-top: 1rem;
+  max-width: 28.5rem;
+}
+.li5 .content {
+  width: 100%;
+}
+.li5 .warapslepris {
+  padding-top: 0.6rem;
+}
+.li5 .more {
+  padding-top: 0.2rem;
+}
+
+.li6 .title {
+  padding-top: 1.2rem;
+  width: 100%;
+}
+.li6 .content {
+  width: 100%;
+  margin-top: 2.9rem;
+  margin-bottom: 1.5rem;
+}
+.li6 .prise {
+  padding-top: 0.7rem;
+}
+.li6 .warapslepris {
+  padding-top: 0.8rem;
+}
+.li6 .more {
+  padding-top: 0.2rem;
+}
+
+@media (max-width: 768px) {
+  .wrapCart {
+    max-width: 100%;
+    border: none;
+  }
+  .wrapCart .title {
+    max-width: 100vh;
+  }
+  .wrapCart .title h2 {
+    font-size: 19px;
+  }
+  .wrapCart .content {
+    max-width: 100vh;
+  }
+  .wrapCart .content p {
+    font-size: 19px;
+  }
+  .wrapCart .Info {
+    grid-template-rows: 5.6rem 6em;
+    grid-template-columns: 4.85rem 29.4rem;
+    align-items: center;
+  }
+  .wrapCart .Info .prise {
+    font-size: 30px;
+  }
+  .wrapCart .Info .prise span {
+    font-size: 32px;
+  }
+  .wrapCart .Info .warapslepris .salePrise p {
+    font-size: 30px;
+  }
+  .wrapCart .Info .warapslepris .sale p {
+    font-size: 16px;
+  }
+  .wrapCart .Info .warapslepris .sale span {
+    font-size: 18px;
+  }
+  .wrapCart .more span {
+    font-size: 22px;
+  }
+}
+@media (max-width: 520px) {
+  .wrapCart {
+    height: 100%;
+  }
+  .wrapCart .title {
+    max-width: 100vh;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .wrapCart .content {
+    max-width: 100vh;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .wrapCart .Info {
+    grid-template-rows: 56px 60px;
+    grid-template-columns: 48px 77%;
+    align-items: center;
+    max-width: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrapCart .Info .prise {
+    font-size: 24px;
+  }
+  .wrapCart .Info .prise span {
+    font-size: 23px;
+  }
+  .wrapCart .Info .warapslepris .salePrise p {
+    font-size: 23px;
+  }
+  .wrapCart .more span {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+}
+@media (max-width: 520px) and (min-width: 575.98px) {
+  .cont {
+    padding: 0 calc(50% - 270px);
+  }
+}
+@media (max-width: 520px) and (min-width: 767.98px) {
+  .cont {
+    padding: 0 calc(50% - 360px);
+  }
+}
+@media (max-width: 520px) and (min-width: 991.98px) {
+  .cont {
+    padding: 0 calc(50% - 480px);
+  }
+}
+@media (max-width: 520px) and (min-width: 1199.98px) {
+  .cont {
+    padding: 0 calc(50% - 600px);
+  }
+}/*# sourceMappingURL=Cart2BestSolutions.module.css.map */

@@ -1,0 +1,160 @@
+.cartWrap1 {
+  box-shadow: 0 0 24px rgba(9, 5, 47, 0.85);
+}
+.cartWrap1 .img1 {
+  background: url("../../img/photoCart1.png") no-repeat;
+  width: 36rem;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+.cartWrap1 .img2 {
+  background: url("../../img/photoCart2.png") no-repeat;
+  width: 36rem;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+.cartWrap1 .img3 {
+  background: url("../../img/photoCart3.png") no-repeat;
+  width: 36rem;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+.cartWrap1 .img1:after, .cartWrap1 .img2:after, .cartWrap1 .img3:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background: linear-gradient(to right, rgba(9, 5, 47, 0.85) 0%, rgba(157, 43, 93, 0.3294117647) 100%);
+}
+.cartWrap1 .f .wrapContent {
+  padding: 4.2rem 3.2rem 2rem 3.2rem;
+}
+.cartWrap1 .f .wrapContent .title {
+  margin-bottom: 2.3rem;
+}
+.cartWrap1 .f .wrapContent .title p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.cartWrap1 .f .wrapContent .seo {
+  margin-top: 2rem;
+  margin-bottom: 1.7rem;
+}
+.cartWrap1 .f .wrapContent .seo p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.cartWrap1 .f .wrapContent .hr {
+  background: linear-gradient(180deg, rgba(51, 51, 51, 0) 0%, #333333 86.98%);
+  background: #FFFFFF;
+  opacity: 0.2;
+}
+.cartWrap1 .f .wrapContent .content {
+  margin-top: 2.1rem;
+  margin-bottom: 3.1rem;
+}
+.cartWrap1 .f .wrapContent .content p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.cartWrap1 .f .wrapContent .sale {
+  margin-bottom: 3.3rem;
+}
+.cartWrap1 .f .wrapContent .sale p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.cartWrap1 .f .wrapContent .sale p span {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 1.8rem;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.cartWrap1 .f .wrapContent .btnCartWrap {
+  display: grid;
+}
+.cartWrap1 .f .wrapContent .btnCartWrap .btnCart {
+  padding: 1.6rem 3.2rem;
+  max-width: 29.6rem;
+  height: 5.2rem;
+  position: relative;
+  border: 0.1rem solid #FF5900;
+  border-radius: 10rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  text-align: center;
+  color: #FF5900;
+  background: linear-gradient(180deg, rgba(51, 51, 51, 0.8) 0%, rgba(157, 43, 93, 0.3294117647) 100%), url(../../img/photo.png);
+}
+.cartWrap1 .f .wrapContent .btnCartWrap .btnCart:hover {
+  background: #CA4600;
+  border-radius: 10rem;
+  color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  .cartWrap1 .img1 {
+    background: url("../../img/photoCart1.png") no-repeat;
+    width: 100vw;
+    background-size: cover;
+  }
+  .cartWrap1 .img2 {
+    background: url("../../img/photoCart2.png") no-repeat;
+    width: 100vw;
+    background-size: cover;
+  }
+  .cartWrap1 .img3 {
+    background: url("../../img/photoCart3.png") no-repeat;
+    width: 100vw;
+    background-size: cover;
+  }
+  .cartWrap1 .f .wrapContent .title p {
+    font-size: 2.8rem;
+  }
+  .cartWrap1 .f .wrapContent .seo p {
+    font-size: 2.6rem;
+  }
+  .cartWrap1 .f .wrapContent .content p {
+    font-size: 2.4rem;
+  }
+  .cartWrap1 .f .wrapContent .sale p {
+    font-size: 2.6rem;
+  }
+  .cartWrap1 .f .wrapContent .sale p span {
+    font-size: 2.8rem;
+  }
+  .cartWrap1 .f .wrapContent .btnCartWrap .btnCart {
+    max-width: 60%;
+    height: 5.2rem;
+    font-size: 2.6rem;
+  }
+}/*# sourceMappingURL=Cart.module.css.map */

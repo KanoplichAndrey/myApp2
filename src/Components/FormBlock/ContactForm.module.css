@@ -1,0 +1,92 @@
+form {
+  margin: 0 auto;
+  background: #e5e5e5;
+  padding: 0rem 6.4rem 0rem 6rem;
+  max-width: 63rem;
+  height: 35.7rem;
+}
+form .input1 {
+  padding: 2.5rem 0rem 1.6rem 0rem;
+}
+form input {
+  border: 0.1rem solid rgba(51, 51, 51, 0.5019607843);
+  width: 51rem;
+  height: 5.5rem;
+  background: #e5e5e5;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 100%;
+  color: #333333;
+  opacity: 0.4;
+}
+form input[type=text] {
+  padding-top: 2.3rem;
+}
+form input[type=email] {
+  padding-top: 2.3rem;
+}
+form .checkbox {
+  margin-top: 2.5rem;
+  margin-bottom: 4.3rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  border: 1px solid rgba(51, 51, 51, 0.5);
+  background: #e5e5e5;
+}
+form input[type=checkbox] {
+  background: #e5e5e5;
+  opacity: 1;
+}
+form span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #212121;
+  padding-left: 1.1rem;
+}
+form button {
+  width: 25rem;
+  height: 6.2rem;
+  background: #ff5900;
+  -webkit-backdrop-filter: blur(0.25rem);
+          backdrop-filter: blur(0.25rem);
+  border-radius: 10rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.2rrem;
+  color: #ffffff;
+  border: 0;
+}
+form button:hover {
+  background: #ca4600;
+  -webkit-backdrop-filter: blur(0.25rem);
+  backdrop-filter: blur(0.25rem);
+}
+
+@media (max-width: 576px) {
+  form {
+    max-width: 100vh;
+  }
+  form .input1 {
+    padding: 2.5rem 0rem 1.6rem 0rem;
+  }
+  form input {
+    width: 100%;
+  }
+  form .checkbox {
+    margin-bottom: 0rem;
+  }
+  form button {
+    margin-top: 3rem;
+  }
+}/*# sourceMappingURL=ContactForm.module.css.map */

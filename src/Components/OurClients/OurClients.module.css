@@ -1,0 +1,72 @@
+.WrapOurClients .WrapContainer {
+  padding-top: 12rem;
+}
+.WrapOurClients .WrapContainer .title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.8rem;
+  line-height: 120%;
+  color: #212121;
+}
+.WrapOurClients .WrapContainer .wrapImages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 27.8rem);
+  justify-items: center;
+  justify-content: space-between;
+  padding-top: 6rem;
+}
+.WrapOurClients .WrapContainer .wrapImages .divWrap:nth-child(1) {
+  padding-top: 0.8rem;
+}
+.WrapOurClients .WrapContainer .wrapImages1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 27.8rem);
+  justify-items: center;
+  justify-content: space-between;
+  padding-top: 3.8rem;
+  padding-bottom: 12rem;
+}
+.WrapOurClients .WrapContainer .wrapImages1 .divWrap1:nth-child(1) {
+  padding-top: 0.9rem;
+}
+.WrapOurClients .WrapContainer .wrapImages1 .divWrap1:nth-child(3) {
+  margin-top: -1.1rem;
+}
+
+.WrapOurClients {
+  padding: 0 15px;
+}
+
+@media (min-width: 575.98px) {
+  .WrapOurClients {
+    padding: 0 calc(50% - 270px);
+  }
+}
+@media (min-width: 767.98px) {
+  .WrapOurClients {
+    padding: 0 calc(50% - 360px);
+  }
+}
+@media (min-width: 991.98px) {
+  .WrapOurClients {
+    padding: 0 calc(50% - 480px);
+  }
+}
+@media (min-width: 1199.98px) {
+  .WrapOurClients {
+    padding: 0 calc(50% - 600px);
+  }
+}
+@media (max-width: 530px) {
+  .WrapOurClients .WrapContainer {
+    display: grid;
+    justify-items: center;
+  }
+  .WrapOurClients .WrapContainer .wrapImages {
+    grid-row-gap: 15px;
+  }
+  .WrapOurClients .WrapContainer .wrapImages1 {
+    grid-row-gap: 15px;
+  }
+}/*# sourceMappingURL=OurClients.module.css.map */

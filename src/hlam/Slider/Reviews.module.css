@@ -1,0 +1,38 @@
+.Testimonials .wrapContainer {
+  padding-bottom: 10rem;
+  max-width: 120rem;
+  margin: 0 auto;
+  position: relative;
+}
+.Testimonials .wrapContainer .title {
+  padding-bottom: 6rem;
+}
+.Testimonials .wrapContainer .title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.8rem;
+  line-height: 120%;
+  color: #212121;
+}
+
+.button {
+  padding: 4.9rem 49.1rem 0 46.5rem;
+}
+.button .btn {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  text-align: center;
+  color: #FF5900;
+  width: 24.4rem;
+  height: 5.2rem;
+  border: 0.1rem solid #FF5900;
+  border-radius: 10rem;
+}
+.button .btn:hover {
+  background: #CA4600;
+  color: white;
+}/*# sourceMappingURL=Reviews.module.css.map */

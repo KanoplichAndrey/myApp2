@@ -1,0 +1,61 @@
+.wrapComand .wrapContainer {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding-bottom: 12rem;
+}
+.wrapComand .wrapContainer h2 {
+  height: 4.6rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.8rem;
+  line-height: 120%;
+  color: #212121;
+}
+.wrapComand .wrapContainer .Card {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 6rem;
+  flex-wrap: wrap;
+}
+
+.wrapComand {
+  padding: 0 15px;
+}
+
+@media (min-width: 575.98px) {
+  .wrapComand {
+    padding: 0 calc(50% - 270px);
+  }
+}
+@media (min-width: 767.98px) {
+  .wrapComand {
+    padding: 0 calc(50% - 360px);
+  }
+}
+@media (min-width: 991.98px) {
+  .wrapComand {
+    padding: 0 calc(50% - 480px);
+  }
+}
+@media (min-width: 1199.98px) {
+  .wrapComand {
+    padding: 0 calc(50% - 600px);
+  }
+}
+@media (max-width: 1200px) {
+  .wrapComand .wrapContainer h2 {
+    text-align: center;
+  }
+  .wrapComand .wrapContainer .Card {
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 768px) {
+  .wrapComand {
+    background: linear-gradient(to right, rgba(9, 5, 47, 0.85) 0%, rgba(157, 43, 93, 0.3294117647) 100%);
+  }
+  .wrapComand .wrapContainer h2 {
+    color: white;
+  }
+}/*# sourceMappingURL=OurComand.module.css.map */

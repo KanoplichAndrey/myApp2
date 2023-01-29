@@ -1,0 +1,65 @@
+.cartWrap .cartWrapLight {
+  height: 100%;
+  display: grid;
+  justify-items: center;
+  grid-row-gap: 1.7rem;
+}
+.cartWrap .cartWrapLight .im1 {
+  background: url("../../img/icon1.svg") no-repeat;
+  width: 7rem;
+  height: 7rem;
+  margin-top: 0.8rem;
+}
+.cartWrap .cartWrapLight .im2 {
+  background: url("../../img/icon2.svg") no-repeat;
+  width: 7rem;
+  height: 7rem;
+  margin-top: 0.8rem;
+}
+.cartWrap .cartWrapLight .im3 {
+  background: url("../../img/icon3.svg") no-repeat;
+  width: 7rem;
+  height: 7rem;
+  margin-top: 0.8rem;
+}
+.cartWrap .cartWrapLight .im4 {
+  background: url("../../img/icon4.svg") no-repeat;
+  width: 7rem;
+  height: 7rem;
+  margin-top: 0.8rem;
+}
+.cartWrap .cartWrapLight .im5 {
+  background: url("../../img/icon5.svg") no-repeat;
+  width: 7rem;
+  height: 7rem;
+  margin-top: 0.8rem;
+}
+.cartWrap .cartWrapLight .im6 {
+  background: url("../../img/icon6.svg") no-repeat;
+  width: 7rem;
+  height: 7rem;
+  margin-top: 0.8rem;
+}
+.cartWrap .cartWrapLight .cartContent p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 140%;
+  text-align: center;
+  color: #333333;
+}
+
+@media (max-width: 768px) {
+  .cartWrap {
+    background: linear-gradient(to right, rgba(9, 5, 47, 0.85) 0%, rgba(157, 43, 93, 0.3294117647) 100%);
+  }
+  .cartWrap .cartWrapLight .cartIcon {
+    height: 70px;
+    width: 70px;
+  }
+  .cartWrap .cartWrapLight .cartContent p {
+    font-size: 16px;
+    display: table-footer-group;
+  }
+}/*# sourceMappingURL=BenefitsCart.module.css.map */
