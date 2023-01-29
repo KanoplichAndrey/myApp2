@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8f1fce35db0f5f86f9e1",
+    "revision": "fa2d64facad3013a24c3",
     "url": "/myApp2/static/css/main.e82d0f64.chunk.css"
   },
   {
-    "revision": "8f1fce35db0f5f86f9e1",
-    "url": "/myApp2/static/js/main.8f1fce35.chunk.js"
+    "revision": "fa2d64facad3013a24c3",
+    "url": "/myApp2/static/js/main.fa2d64fa.chunk.js"
   },
   {
     "revision": "805a856ca8654c636d9a",
@@ -40,12 +40,12 @@ self.__precacheManifest = [
     "url": "/myApp2/static/media/pho6.8f955744.svg"
   },
   {
-    "revision": "6f7e5afaa869ce3210fd36f20deb5a24",
-    "url": "/myApp2/static/media/framesale.6f7e5afa.svg"
-  },
-  {
     "revision": "6d6450416dd423cff7555adcfe9cb3cd",
     "url": "/myApp2/static/media/framepresent.6d645041.svg"
+  },
+  {
+    "revision": "6f7e5afaa869ce3210fd36f20deb5a24",
+    "url": "/myApp2/static/media/framesale.6f7e5afa.svg"
   },
   {
     "revision": "b8dbd8c26b87cebb29788c194873c25a",
@@ -64,10 +64,6 @@ self.__precacheManifest = [
     "url": "/myApp2/static/media/photoCart3.2ab62b4a.png"
   },
   {
-    "revision": "53ae2bab700a56f06bcab16bcf29cfa1",
-    "url": "/myApp2/static/media/Screen.53ae2bab.png"
-  },
-  {
     "revision": "cc828b780957aa9a4047968894ca475d",
     "url": "/myApp2/static/media/image22.cc828b78.png"
   },
@@ -82,6 +78,10 @@ self.__precacheManifest = [
   {
     "revision": "9a63371b2b28e7c15f31453e2a0b09be",
     "url": "/myApp2/static/media/image44.9a63371b.png"
+  },
+  {
+    "revision": "53ae2bab700a56f06bcab16bcf29cfa1",
+    "url": "/myApp2/static/media/Screen.53ae2bab.png"
   },
   {
     "revision": "7803a274ff96bddb76b5cc4c802f4a94",
@@ -220,7 +220,7 @@ self.__precacheManifest = [
     "url": "/myApp2/static/media/Frame.6004d2a2.svg"
   },
   {
-    "revision": "a56a008ef3e56994d6ef2d7abb0663cf",
+    "revision": "fa6270f0cde35c5c666f9f739e297335",
     "url": "/myApp2/index.html"
   }
 ];
