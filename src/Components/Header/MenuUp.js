@@ -16,7 +16,7 @@ const MenuUp = () => {
     <div className={s.wrapMenuUp}>
       <ul>
         <li>
-          <Link to="/" className={s.logo}>
+          <Link to="/myApp2/" className={s.logo}>
             <img title="my-img" src={logo} alt="my-img" />
           </Link>
         </li>
